@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongo": {
+    "host": "ds061246.mlab.com",
+    "port": 61246,
+    "url": "mongodb://dev:Standar123@ds061246.mlab.com:61246/sermon-dev",
+    "database": "sermon-dev",
+    "password": "Standar123",
+    "name": "mongo",
+    "user": "dev",
+    "connector": "mongodb"
+  }
+}

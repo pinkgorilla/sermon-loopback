@@ -1,0 +1,55 @@
+{
+  "name": "Sermon",
+  "base": "Base",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true,
+    "mongodb": {
+      "collection": "sermons"
+    }
+  },
+  "properties": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "artist": {
+      "type": "string",
+      "required": true
+    },
+    "minute": {
+      "type": "number",
+      "required": true
+    },
+    "second": {
+      "type": "number",
+      "required": true
+    },
+    "month": {
+      "type": "number",
+      "required": true
+    },
+    "year": {
+      "type": "number",
+      "required": true
+    },
+    "duration": {
+      "type": "number",
+      "required": true
+    },
+    "description": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "string"
+    },
+    "uri": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
